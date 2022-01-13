@@ -1,2 +1,2 @@
-echo "Hi Earth!"
-echo "this is my change"
+console.log("Hi Earth!");
+console.log("this is my change");
