@@ -1,29 +1,10 @@
+//My First Sample
 console.log("Hi Earth!");
 console.log("this is my change");
+console.log("hey what are you doing?");
 
-function eat(food1, food2)
-{
-    alert("I like to eat " + food1 + " and " + food2 );
-}
-/* function myFunc(callback, args)
-{
-    //do stuff
-    //...
-    //execute callback when finished
-    callback.apply(this, args);
-}
-
-//alerts "I like to eat pickles and peanut butter"
-myFunc(eat, ["pickles", "peanut butter"]); 
- */
-function func1(a, b){
-    alert(`Results: ${a} and ${b}`);
-}
-
-function func2(callback, args)
-{
-    callback.apply(this,args);
-}
-
-func2(func1, ["A","B"]);
-
+let varName = "MyVar";
+let varName2 = "2"
+let final = `This is my final version: ${varName} - ${varName2}`
+console.log(final);
+console.log(typeof final);
